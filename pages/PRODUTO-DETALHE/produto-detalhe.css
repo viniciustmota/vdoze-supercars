@@ -1,0 +1,35 @@
+
+main{
+    padding: 96px 16px 16px;
+}
+
+.produto-caminho{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.produto-detalhe-grid{
+    display: flex;
+    gap: 16px;
+}
+
+.produto-imagens,.produto-descricao{
+    width: 50%;
+}
+
+.produto-imagens{
+    background-color: red;
+}
+
+.produto-imagens .imagem-grande{
+    width: 100%;
+}
+
+.produto-imagens .carrossel-imagens-pequenas{
+    display: flex;
+    gap: 8px;
+}
+
+.produto-imagens .carrossel-imagens-pequenas .imagem-pequena{
+    width: 25%;
+}
