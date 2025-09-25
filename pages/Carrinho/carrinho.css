@@ -123,6 +123,7 @@ li {
 main {
     display: flex;
     align-items: center;
+    padding-top: 10em;
     margin: 0 5em 5em 5em;
 }
 
