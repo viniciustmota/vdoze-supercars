@@ -7,22 +7,20 @@
   <link rel="stylesheet" href="../../assets/css/reset.css">
   <link rel="stylesheet" href="../../assets/css/header.css">
   <link rel="stylesheet" href="../../assets/css/footer.css">
-  <link rel="stylesheet" href="./produto-detalhe.css">
-  <title>Produto Detalhe | SuperCars</title>
+  <link rel="stylesheet" href="style.css">
+  <title>Confirmação | SuperCars</title>
 </head>
 
 <body>
   <header class="header">
     <a href="/">
-      <img src="/assets/icon/logo.png" alt="logo super cars" width="192" height="58" />
+      <img src="../../assets/icon/logo.png" alt="logo super cars" width="192" height="58" />
     </a>
 
     <div class="content-nav">
       <nav>
         <ul>
-          <li>
-            <strong><a href="/"> Início </a></strong>
-          </li>
+          <li><strong><a href="/"> Início </a></strong></li>
           <li><a href="/"> Modelos </a></li>
           <li><a href="/"> Sobre nós </a></li>
         </ul>
@@ -64,54 +62,93 @@
   </header>
 
   <main>
-    <section class="produto-detalhe">
-      <span class="produto-caminho">Início / Carros / Civic 1.5 Turbo</span>
-      <div class="produto-detalhe-grid">
-        <div class="produto-imagens">
-          <img src="/assets/image/imagem-carro-1.webp" alt="" class="imagem-grande" />
-          <div class="carrossel-imagens-pequenas">
-            <img src="#" alt="" class="seta" />
-            <div class="carrossel">
-              <img src="/assets/image/imagem-carro-1.webp" alt="" class="imagem-pequena" />
-              <img src="/assets/image/imagem-carro-2.webp" alt="" class="imagem-pequena" />
-              <img src="/assets/image/imagem-carro-3.webp" alt="" class="imagem-pequena" />
-              <img src="/assets/image/imagem-carro-4.webp" alt="" class="imagem-pequena" />
-            </div>
-            <img src="#" alt="" class="seta" />
+    <section class="form-section">
+      <h1>Resumo Do Pedido:</h1>
+
+      <div>
+        <div>
+          <div class="item-informacao">
+            <h2>Dados Pessoal:</h2>
+            <ul>
+              <li>Nome: Teste Da Silva</li>
+              <li>Email: teste@gmail.com </li>
+              <li>CPF: 123.123.123-93</li>
+              <li>Telefone: (xx) xxxxx-xxx</li>
+            </ul>
+          </div>
+          <div class="item-informacao">
+            <h2>Endereço De Entrega:</h2>
+            <ul>
+              <li>CEP: 11111111-111</li>
+              <li>Rua: Teste </li>
+              <li>Bairro: Teste</li>
+              <li>Cidade: Teste</li>
+              <li>Estado: Te</li>
+              <li>Complemento: xxxxxxxxx</li>
+            </ul>
+          </div>
+          <div class="item-informacao">
+            <h2>Forma De Pagamento:</h2>
+            <ul>
+              <li>Forma de pagamento: PIX</li>
+              <li>Horário de compra: 16:99 </li>
+              <li>Data de compra: 31/02/1945</li>
+              <li>Total: R$ 100,99</li>
+            </ul>
+          </div>
+          <div class="item-informacao">
+            <h2>Observações:</h2>
+            <ul>
+              <li>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</li>
+            </ul>
           </div>
         </div>
-        <div class="produto-descricao">
-          <h1 class="produto-titulo">Civic 1.5 Turbo</h1>
-          <div class="produto-valores">
-            <del class="produto-preco-antigo">R$ 250,99</del>
-            <span class="produto-preco-atual">R$ 200,99</span>
-            <p class="descricao">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat
-              unde commodi rem ratione non, sapiente dolores provident
-              accusantium officiis minima ducimus sint vel quam exercitationem
-              nam! Incidunt modi magni quas. Lorem ipsum dolor sit amet
-              consectetur, adipisicing elit. In suscipit laudantium nobis
-              asperiores consectetur ipsa voluptates assumenda dolor eius vel
-              iste nisi, repellendus consequatur, laboriosam quam tenetur
-              blanditiis repellat aut.
-            </p>
-          </div>
-          <div class="cores">
-            <div class="produto-cor vermelho"></div>
-            <div class="produto-cor amarelo"></div>
-            <div class="produto-cor verde"></div>
-            <div class="produto-cor azul"></div>
-          </div>
-          <div class="produto-detalhe-footer">
-            <input type="number" min="1" max="100" value="1" class="produto-quantidade" />
-            <a href="#" class="produto-button">Comprar</a>
-          </div>
+        <div>
+          <h2>Produtos:</h2>
+          <ul class="list-product">
+            <li class="product-item">
+              <div class="product-image"></div>
+              <div class="product-information">
+                <h3>PRODUTO TESTE 20000000</h3>
+                <span>R$ 200,99</span>
+                <p>Quantidade: <b>1</b></p>
+              </div>
+            </li>
+            <li class="product-item">
+              <div class="product-image"></div>
+              <div class="product-information">
+                <h3>PRODUTO TESTE 20000000</h3>
+                <span>R$ 200,99</span>
+                <p>Quantidade: <b>1</b></p>
+              </div>
+            </li>
+            <li class="product-item">
+              <div class="product-image"></div>
+              <div class="product-information">
+                <h3>PRODUTO TESTE 20000000</h3>
+                <span>R$ 200,99</span>
+                <p>Quantidade: <b>1</b></p>
+              </div>
+            </li>
+            <li class="product-item">
+              <div class="product-image"></div>
+              <div class="product-information">
+                <h3>PRODUTO TESTE 20000000</h3>
+                <span>R$ 200,99</span>
+                <p>Quantidade: <b>1</b></p>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
     </section>
-    <section class="avaliacoes"></section>
-    <section class="produtos-relacionados"></section>
+    <div class="finish">
+      <a id="button1" href="/pages/finalizacao/index.html">Voltar</button>
+        <a id="button2" href="/pages/status/index.html">Finalizar Compra</button>
+    </div>
   </main>
+
+
 
   <footer>
     <div class="footer-top">
@@ -149,23 +186,20 @@
       <div class="footer-column">
         <h2>Redes Sociais</h2>
         <ul class="footer-column-redes">
-          <li>
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <li><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M7.8 2H16.2C19.4 2 22 4.6 22 7.8V16.2C22 17.7383 21.3889 19.2135 20.3012 20.3012C19.2135 21.3889 17.7383 22 16.2 22H7.8C4.6 22 2 19.4 2 16.2V7.8C2 6.26174 2.61107 4.78649 3.69878 3.69878C4.78649 2.61107 6.26174 2 7.8 2ZM7.6 4C6.64522 4 5.72955 4.37928 5.05442 5.05442C4.37928 5.72955 4 6.64522 4 7.6V16.4C4 18.39 5.61 20 7.6 20H16.4C17.3548 20 18.2705 19.6207 18.9456 18.9456C19.6207 18.2705 20 17.3548 20 16.4V7.6C20 5.61 18.39 4 16.4 4H7.6ZM17.25 5.5C17.5815 5.5 17.8995 5.6317 18.1339 5.86612C18.3683 6.10054 18.5 6.41848 18.5 6.75C18.5 7.08152 18.3683 7.39946 18.1339 7.63388C17.8995 7.8683 17.5815 8 17.25 8C16.9185 8 16.6005 7.8683 16.3661 7.63388C16.1317 7.39946 16 7.08152 16 6.75C16 6.41848 16.1317 6.10054 16.3661 5.86612C16.6005 5.6317 16.9185 5.5 17.25 5.5ZM12 7C13.3261 7 14.5979 7.52678 15.5355 8.46447C16.4732 9.40215 17 10.6739 17 12C17 13.3261 16.4732 14.5979 15.5355 15.5355C14.5979 16.4732 13.3261 17 12 17C10.6739 17 9.40215 16.4732 8.46447 15.5355C7.52678 14.5979 7 13.3261 7 12C7 10.6739 7.52678 9.40215 8.46447 8.46447C9.40215 7.52678 10.6739 7 12 7ZM12 9C11.2044 9 10.4413 9.31607 9.87868 9.87868C9.31607 10.4413 9 11.2044 9 12C9 12.7956 9.31607 13.5587 9.87868 14.1213C10.4413 14.6839 11.2044 15 12 15C12.7956 15 13.5587 14.6839 14.1213 14.1213C14.6839 13.5587 15 12.7956 15 12C15 11.2044 14.6839 10.4413 14.1213 9.87868C13.5587 9.31607 12.7956 9 12 9Z"
                 fill="white" />
             </svg>
           </li>
-          <li>
-            <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <li><svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M11.25 16.875L17.0887 13.5L11.25 10.125V16.875ZM24.255 8.06625C24.4012 8.595 24.5025 9.30375 24.57 10.2037C24.6488 11.1037 24.6825 11.88 24.6825 12.555L24.75 13.5C24.75 15.9637 24.57 17.775 24.255 18.9338C23.9737 19.9462 23.3212 20.5987 22.3088 20.88C21.78 21.0262 20.8125 21.1275 19.3275 21.195C17.865 21.2738 16.5262 21.3075 15.2887 21.3075L13.5 21.375C8.78625 21.375 5.85 21.195 4.69125 20.88C3.67875 20.5987 3.02625 19.9462 2.745 18.9338C2.59875 18.405 2.4975 17.6962 2.43 16.7963C2.35125 15.8963 2.3175 15.12 2.3175 14.445L2.25 13.5C2.25 11.0363 2.43 9.225 2.745 8.06625C3.02625 7.05375 3.67875 6.40125 4.69125 6.12C5.22 5.97375 6.1875 5.8725 7.6725 5.805C9.135 5.72625 10.4738 5.6925 11.7113 5.6925L13.5 5.625C18.2137 5.625 21.15 5.805 22.3088 6.12C23.3212 6.40125 23.9737 7.05375 24.255 8.06625Z"
                 fill="white" />
             </svg>
           </li>
-          <li>
-            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <mask id="mask0_71_829" style="mask-type: luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="20"
+          <li><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <mask id="mask0_71_829" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="20"
                 height="20">
                 <path d="M0 0H20V20H0V0Z" fill="white" />
               </mask>
@@ -176,8 +210,7 @@
               </g>
             </svg>
           </li>
-          <li>
-            <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <li><svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M24.75 13.5C24.75 7.29 19.71 2.25 13.5 2.25C7.29 2.25 2.25 7.29 2.25 13.5C2.25 18.945 6.12 23.4787 11.25 24.525V16.875H9V13.5H11.25V10.6875C11.25 8.51625 13.0162 6.75 15.1875 6.75H18V10.125H15.75C15.1313 10.125 14.625 10.6313 14.625 11.25V13.5H18V16.875H14.625V24.6938C20.3062 24.1313 24.75 19.3388 24.75 13.5Z"
                 fill="white" />

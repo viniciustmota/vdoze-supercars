@@ -357,11 +357,14 @@ main h2 {
     margin-top: 35px;
 }
 
-.finish button {
+.finish a {
     width: 20em;
     margin-top: 2em;
     height: 3em;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .finish #button1 {

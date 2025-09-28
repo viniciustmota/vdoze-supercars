@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background-color: #C7C7C7;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.content-nav,
+.content-icons,
+.content-nav nav ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
